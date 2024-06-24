@@ -1,0 +1,60 @@
+h1 { 		
+    margin: auto;
+    color : white;  
+    text-align: center;
+    text-shadow: 2px 2px 3px black; 
+    padding: 8px;
+}
+h2 {
+    background-color: rgb(0, 110, 255);
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-top: 28px;
+    margin-bottom: 60px;
+}
+h4 {
+    background-color: rgba(9, 75, 83, 0.22);
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+p{
+    text-align: justify;
+}
+.conteneur-ligne{
+    display: flex;
+    flex-direction: row;
+}
+.element{
+   margin: 8px;
+}
+footer{
+    background-color:black;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding: 40px;
+    text-align: center;
+}
+.bouton {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+.danger {
+    background-color: red;
+}
+.attention {
+    background-color: orange;
+}
+.succes {
+    background-color: green;
+}
